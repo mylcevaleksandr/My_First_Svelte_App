@@ -4,9 +4,9 @@ export let type = 'button'
 export let disabled = false
 </script>
 
-  <button {type} {disabled} class={style}>
+<button {type} {disabled} class={style}>
     <slot></slot>
-  </button>
+</button>
 
   <style>
 button {
@@ -17,6 +17,8 @@ button {
     width: 100px;
     height: 40px;
     cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .primary {
@@ -42,4 +44,4 @@ button:disabled:hover {
     transform: scale(1);
     opacity: 1;
 }
-</style> 
+</style>

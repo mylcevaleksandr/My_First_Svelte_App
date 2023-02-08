@@ -103,4 +103,33 @@ const onChange = (e) => {
     color: #fff;
     z-index: 1;
 }
+
+@media screen and (max-width:425px) {
+    .rating li {
+        width: 45px;
+        height: 45px;
+        padding: 7px;
+    }
+
+    .rating li label {
+        width: 45px;
+        height: 45px;
+        padding: 7px;
+    }
+
+    @media screen and (max-width:375px) {
+        .rating li {
+            width: 35px;
+            height: 35px;
+            font-size: revert;
+            padding: 6px;
+        }
+
+        .rating li label {
+            width: 35px;
+            height: 35px;
+            padding: 6px;
+        }
+    }
+}
 </style>

@@ -11,4 +11,11 @@
     margin: 20px 0;
     position: relative;
 }
+
+@media screen and (max-width:425px) {
+    .card {
+        padding: 40px 10px;
+        text-align: center;
+    }
+}
 </style>
